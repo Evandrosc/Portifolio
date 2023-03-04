@@ -1,0 +1,26 @@
+.header {
+    padding: 0 4vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.contanier__logo {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.cabecalho__h3 {
+    color: var(--cor4);
+}
+
+.menu__lista {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu__link {
+    color: var(--cor4);
+    font-weight: 500;
+}

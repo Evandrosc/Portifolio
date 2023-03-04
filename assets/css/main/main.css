@@ -1,0 +1,154 @@
+.section__conteudos {
+    padding: 0 4vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.contanier__conteudos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conteudo__h1 {
+    color: var(--cor4);
+    font-size: 3.8rem;
+}
+
+.conteudo__h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.menu__navegacao {
+    display: flex;
+    gap: 5%;
+}
+
+.contanier__navegacao {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--cor4);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.navegacao__img {
+    background-image: url('../../img/arrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9px;
+    height: 9px;
+}
+
+
+.section__sobre {
+    background-color: var(--cor2);
+    padding-left: 4vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contanier__sobre {
+    width: 100%;
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+
+.section__skills {
+    background-color: var(--cor1);
+    padding-top: 2rem;
+}
+
+.skills__h3 {
+    text-align: center;
+}
+
+.conteudo__skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contanier__skills {
+    padding: 0 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--branco);
+    width: 15%;
+    height: 150px;
+    margin: 2rem 0;
+    padding: 0 0 0.5rem .7rem;
+}
+
+.skills__img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: .8rem;
+}
+
+.img__html {
+    width: 24px;
+    height: 28px;
+    background-image: url('../../img/htlm.png');
+}
+
+.img__js {
+    width: 28px;
+    height: 28px;
+    background-image: url('../../img/js_icon.png');
+}
+
+.img__php {
+    width: 40px;
+    height: 22px;
+    background-image: url('../../img/php_icon.png');
+}
+
+.img__nodejs {
+    width: 40px;
+    height: 26px;
+    background-image: url('../../img/nodejs_icon.png');
+}
+
+.img__react {
+    width: 32px;
+    height: 30px;
+    background-image: url('../../img/react_icon.png');
+}
+
+.img__css {
+    width: 22px;
+    height: 36px;
+    background-image: url('../../img/css_icon.png');
+}
+
+.skills__paragrafo {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills {
+        width: 32%;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        width: 49%;
+        height: 110px;
+    }
+}
