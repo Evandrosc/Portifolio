@@ -16,6 +16,28 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;
     list-style-type: none;
+}
+
+body {
+    background-color: var(--cor1);
+    max-width: 1440px;
+    min-width: 320px;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+a {
+    text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1;
+}
+
+p {
+    margin-bottom: 0;
 }

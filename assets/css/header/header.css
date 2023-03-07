@@ -2,7 +2,9 @@
     padding: 0 4vw;
     display: flex;
     justify-content: space-between;
-    margin: 3rem 0;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .contanier__logo {
@@ -11,8 +13,9 @@
     gap: .7rem;
 }
 
-.cabecalho__h3 {
+.cabecalho__h2 {
     color: var(--cor4);
+    font-size: max(.9rem, 1.5vw);
 }
 
 .menu__lista {
@@ -20,7 +23,29 @@
     gap: 1rem;
 }
 
+
 .menu__link {
     color: var(--cor4);
     font-weight: 500;
+}
+
+.contato {
+    font-weight: 700;
+    font-size: max(.9rem, 1.2vw);
+}
+
+@media screen and (max-width: 1024px) {
+    .menu__links {
+        display: none;
+    }
+
+    .contato {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contato {
+        font-weight: 500;
+    }
 }
