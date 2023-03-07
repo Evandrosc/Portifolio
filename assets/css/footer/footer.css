@@ -51,6 +51,12 @@ textarea.form-control:focus {
     line-height: 40px;
 }
 
+.formulario__botao:hover {
+    background-color: var(--cor4);
+    color: var(--branco);
+    transition: .4s;
+}
+
 input.form-control::selection {
     background-color: #007bff;
     color: #fff;
